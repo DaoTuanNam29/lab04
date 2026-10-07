@@ -12,6 +12,12 @@ description: Styles for lab04.html
     color: #2F4F4F;
 }
 
+/* Page layout (smaller text and margins to match the sample page) */
+body {
+    font-size: 0.8em;
+    margin: 1.5em 3em;
+}
+
 /* Heading 1 */
 h1 {
     color: purple;
@@ -58,6 +64,13 @@ table, th, td {
 
 .month-heading {
     text-align: right;
+}
+
+/* Menu bar: line under the menu */
+nav {
+    padding-bottom: 0.8em;
+    border-bottom: 2px solid #2F4F4F;
+    margin-bottom: 0.8em;
 }
 
 /* Contextual selectors */
